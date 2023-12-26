@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capztone</title>
+
+    <!--style-->
+    <link rel="stylesheet" href="Asset/styles/main.css">
+    <!--slid style-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!--Font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<!--search icons-->
+
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+<!--icons-->
+<link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="nav-border">
+        <div class="border">
+            <i class="fi fi-br-envelope"></i><span class="spantxt">info@capztone.com</span>
+            <i class="fi fi-brands-whatsapp"></i><span class="spantxt">+91 7406304567</span>
+        </div>
+    </div>
+
+    <div class="container-nav">
+        <header>
+            <nav>
+                <div class="nav-bar">
+                    <i class='bx bx-menu sidebarOpen'></i>
+                    <span class="logo navLogo"><img src="Asset/img/capz log.png" alt=""></span>
+
+                    <div class="menu">
+                        <div class="logo-toggle">
+                            <span class="logo"><img src="Asset/img/capz log.png" alt=""></span>
+                            <i class='bx bx-x siderbarClose'></i>
+                        </div>
+
+                        <ul class="nav-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Industries</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Build Your Team</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="blog">Blog</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="darkLight-searchBox">
+                        <div class="dark-light">
+                            <i class='bx bx-moon moon'></i>
+                            <i class='bx bx-sun sun'></i>
+                        </div>
+
+                        <div class="searchBox">
+                            <div class="searchToggle">
+                                <i class='bx bx-x cancel'></i>
+                                <i class='bx bx-search search'></i>
+                            </div>
+
+                            <div class="search-field">
+                                <input type="text" placeholder="Search...">
+                                <i class='bx bx-search'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <br><br><br>
+
+        </header>
+    </div>
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+            - HERO
+          -->
+
+            <section class="hero" id="hero">
+                <div class="container">
+
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title">Capztone Innovative Solution</h1>
+
+                        <p class="hero-text">
+                            Capztone Innovation Solution is an IT Solutions and Services Company focused on creating and
+                            providing customized solutions and value to mid-sized and large organizations towards their
+                            IT needs through innovative & customized solutions addressing their business needs
+                        </p>
+
+                        <p class="form-text">
+                            <span>🥳</span> Contact Us
+                        </p>
+
+                        <form action="" class="hero-form">
+                            <input type="email" name="email" required placeholder="Enter Your Email"
+                                class="email-field">
+
+                            <button type="submit" class="btn btn-primary">Contact Now</button>
+                        </form>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="Asset/img/homeImg.svg" alt="Hero image">
+                    </figure>
+
+                </div>
+            </section>
+            <!-- 
+            slide
+          -->
+            <!-- slider -->
+            <div class="slide-body">
+
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="Asset/img/softwaredev.jpg" alt="">
+                        <div class="info">
+                            <h2>Enterprise software Development</h2>
+                            <p> Enabling innovative Software development via expert engineering
+                                services</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Asset/img/slide(a).jpg" alt="">
+                        <div class="info">
+                            <h2>Generative AI services</h2>
+                            <p> Unleashing creativity and fueling automation using advanced Gen AI
+                                Solutions</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Asset/img/productengine.jpg" alt="">
+                        <div class="info">
+                            <h2>Product development Services</h2>
+                            <p> Empowering businesses with next-gen solutions to drive business growth</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Asset/img/datascience.jpg" alt="">
+                        <div class="info">
+                            <h2>Data Science & Analytics</h2>
+                            <p>Empowering businesses with next-gen solutions to drive business growth</p>
+                        </div>
+                    </div>
+
+                    <div class="navigation">
+                        <i class="fas fa-chevron-left prev-btn"></i>
+                        <i class="fas fa-chevron-right next-btn"></i>
+                    </div>
+                    <div class="navigation-visibility">
+                        <div class="slide-icon active"></div>
+                        <div class="slide-icon"></div>
+                        <div class="slide-icon"></div>
+                        <div class="slide-icon"></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            - ABOUT
+          -->
+
+            <section class="about">
+                <h2 class="h2 section-title">Our Engagement Models for developing cutting-edge Software
+                    Solutions</h2>
+
+                <p class="section-text">Our Working Models</p>
+                <div class="container">
+
+                    <div class="about-content">
+
+                        <div class="about-icon">
+                            <ion-icon name="cube"></ion-icon>
+                        </div>
+
+                        <h2 class="h2 about-title">Why Choose Us ?</h2>
+
+                        <p class="about-text">
+                            Innovate with Our Engineering & Solutions Aiming To Serve All Sectors Of The Industry
+                        </p>
+
+                        <button class="btn btn-outline">Learn More</button>
+
+                    </div>
+
+                    <ul class="about-list">
+
+                        <li>
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <ion-icon name="code-outline"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 card-title">Dedicated Development Team</h3>
+
+                                <p class="card-text">
+                                    Establish and integrate a top-tier tech team that is aligned to your business needs.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <ion-icon name="extension-puzzle-outline"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 card-title">Product Team Extension</h3>
+
+                                <p class="card-text">
+                                    Scale your existing team with tech experts and streamlined augmentation services
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <i class="fi fi-rr-tools"></i>
+                                </div>
+
+                                <h3 class="h3 card-title">Agile Development</h3>
+
+                                <p class="card-text">
+                                    Leverage collaborative and iterative approach for bespoke software and product
+                                    development
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <ion-icon name="server"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 card-title">Data Privacy</h3>
+
+                                <p class="card-text">
+                                    Data that are 100% secure and safe
+                                </p>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!--development-->
+            <section class="development">
+                <h2 class="h2 section-title">Our Software Development Services</h2>
+                <p class="section-text">Leverage the expertise of a leading software development company in India.</p>
+                <div class="container">
+                    <ul class="development-list">
+                        <li>
+                            <div class="development-card">
+
+                                <div class="development-card-icon">
+                                    <ion-icon name="people-circle-outline"></ion-icon>
+
+                                </div>
+
+                                <h3 class="h3 development-card-title">Custom Software Development</h3>
+
+                                <p class="development-card-text">
+                                    Get a custom solution developed tailored to your requirements to elevated your
+                                    business profits.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="development-card">
+
+                                <div class="development-card-icon">
+
+                                    <ion-icon name="id-card-outline"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 development-card-title">Mobile Application Development</h3>
+
+                                <p class="development-card-text">
+                                    Get end-to-end mobile app development from business analysis to deployment.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="development-card">
+
+                                <div class="development-card-icon">
+                                    <ion-icon name="logo-apple-ar"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 development-card-title">Product Engineering</h3>
+
+                                <p class="development-card-text">
+                                    Our product engineering services cover entire spectrum from design and development
+                                    to
+                                    deployment.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="development-card">
+
+                                <div class="development-card-icon">
+                                    <ion-icon name="thunderstorm-outline"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 development-card-title">SaaS Development</h3>
+
+                                <p class="development-card-text">
+                                    Develop advanced SaaS solutions leveraging our SaaS Development Services and achive
+                                    unparalleled growth.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="development-card">
+
+                                <div class="development-card-icon">
+                                    <ion-icon name="logo-web-component"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 development-card-title">Web Applications Development</h3>
+
+                                <p class="development-card-text">
+                                    We develop customized and domain specific web application to meet your demands
+                                    cost-effectively
+                                </p>
+
+                            </div>
+                        </li>
+
+
+
+                        <li>
+                            <div class="development-card">
+
+                                <div class="development-card-icon">
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </div>
+
+                                <h3 class="h3 development-card-title">AI Development</h3>
+
+                                <p class="development-card-text">
+                                    Automate your business operations and redudant tasks with the help of our AI
+                                    development services.
+                                </p>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- 
+            - BLOG
+          -->
+            <section class="blog" id="blog">
+                <div class="container">
+
+                    <h2 class="h2 section-title"> Transforming Product Ideas To Digital Realities.</h2>
+
+                    <p class="section-text">
+                        The latest updates from Capztone blog...
+                    </p>
+
+                    <ul class="blog-list">
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="blog-banner">
+                                    <img src="Asset/img/game deve.jpg" alt="Best Traveling Place">
+                                </figure>
+
+                                <div class="blog-meta">
+
+                                    <span>
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time datetime="2021-04-10">Oct 10 2023</time>
+                                    </span>
+
+                                    <span>
+                                        <ion-icon name="person-outline"></ion-icon>
+
+                                        <p>admin-Capztone</p>
+                                    </span>
+
+                                </div>
+
+                                <h3 class="blog-title">Game Development</h3>
+
+                                <p class="blog-text">
+                                    Our very own AR mobile games that teaches kids...
+                                </p>
+
+                                <a href="#" class="blog-link-btn">
+                                    <span>Learn More</span>
+
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="blog-banner">
+                                    <img src="Asset/img/capzhelth.jpg" alt="Private Meeting Room">
+                                </figure>
+
+                                <div class="blog-meta">
+
+                                    <span>
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time datetime="2021-04-10">Dec 1 2023</time>
+                                    </span>
+
+                                    <span>
+                                        <ion-icon name="person-outline"></ion-icon>
+
+                                        <p>admin-Capztone</p>
+                                    </span>
+
+                                </div>
+
+                                <h3 class="blog-title">CapzHealth</h3>
+
+                                <p class="blog-text">
+                                    A SaaS web application for private healthcare providers...
+                                </p>
+
+                                <a href="#" class="blog-link-btn">
+                                    <span>Learn More</span>
+
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="blog-banner">
+                                    <img src="Asset/img/markspace.jpeg" alt="The Best Business Ideas">
+                                </figure>
+
+                                <div class="blog-meta">
+
+                                    <span>
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time datetime="2021-04-10">Dec 4 2023</time>
+                                    </span>
+
+                                    <span>
+                                        <ion-icon name="person-outline"></ion-icon>
+
+                                        <p>admin</p>
+                                    </span>
+
+                                </div>
+
+                                <h3 class="blog-title">MakerSpace</h3>
+
+                                <p class="blog-text">
+                                    A saas mobile app designed to bridge gap between reading and comprehension and
+                                    School mainstream....
+                                </p>
+
+                                <a href="#" class="blog-link-btn">
+                                    <span>Learn More</span>
+
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="blog-banner">
+                                    <img src="Asset/img/HRMS.jpeg" alt="The Best Business Ideas">
+                                </figure>
+
+                                <div class="blog-meta">
+
+                                    <span>
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time datetime="2021-04-10">Dec 4 2023</time>
+                                    </span>
+
+                                    <span>
+                                        <ion-icon name="person-outline"></ion-icon>
+
+                                        <p>admin</p>
+                                    </span>
+
+                                </div>
+
+                                <h3 class="blog-title">CapzHRMS</h3>
+
+                                <p class="blog-text">
+                                    A saas web and mobile application for HR and Project Management....
+                                </p>
+
+                                <a href="#" class="blog-link-btn">
+                                    <span>Learn More</span>
+
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="blog-banner">
+                                    <img src="Asset/img/Capztab.jpg" alt="The Best Business Ideas">
+                                </figure>
+
+                                <div class="blog-meta">
+
+                                    <span>
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time datetime="2021-04-10">Dec 4 2023</time>
+                                    </span>
+
+                                    <span>
+                                        <ion-icon name="person-outline"></ion-icon>
+
+                                        <p>admin</p>
+                                    </span>
+
+                                </div>
+
+                                <h3 class="blog-title">ZtoneTab</h3>
+
+                                <p class="blog-text">
+                                    Building a full-stack data analysis visualization and story telling platform....
+                                </p>
+
+                                <a href="#" class="blog-link-btn">
+                                    <span>Learn More</span>
+
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="blog-banner">
+                                    <img src="Asset/img/greenSpeak.jpg" alt="The Best Business Ideas">
+                                </figure>
+
+                                <div class="blog-meta">
+
+                                    <span>
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time datetime="2021-04-10">Dec 4 2023</time>
+                                    </span>
+
+                                    <span>
+                                        <ion-icon name="person-outline"></ion-icon>
+
+                                        <p>admin</p>
+                                    </span>
+
+                                </div>
+
+                                <h3 class="blog-title">GreenSpeak</h3>
+
+                                <p class="blog-text">
+                                    A mobile application that helps therapists and parents treat children with speech issues.....
+                                </p>
+
+                                <a href="#" class="blog-link-btn">
+                                    <span>Learn More</span>
+
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- 
+            - CONTACT
+          -->
+
+            <section class="contact" id="contact">
+                <div class="container">
+
+                    <h2 class="h2 section-title">Contact Us</h2>
+
+                    <p class="section-text">
+                        Let's Talk <br> Get a quote now!
+                    </p>
+
+                    <div class="contact-wrapper">
+
+                        <form action="" class="contact-form">
+
+                            <div class="wrapper-flex">
+
+                                <div class="input-wrapper">
+                                    <label for="name">Name*</label>
+
+                                    <input type="text" name="name" id="name" required placeholder="Enter Your Name"
+                                        class="input-field">
+                                </div>
+
+                                <div class="input-wrapper">
+                                    <label for="emai">Email*</label>
+
+                                    <input type="text" name="email" id="email" required placeholder="Enter Your Email"
+                                        class="input-field">
+                                </div>
+
+                            </div>
+
+                            <label for="message">Message*</label>
+
+                            <textarea name="message" id="message" required placeholder="Type Your Message"
+                                class="input-field"></textarea>
+
+                            <button type="submit" class="btn btn-primary">
+                                <span>Send Message</span>
+
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </button>
+
+                        </form>
+
+                        <ul class="contact-list">
+
+                            <li>
+                                <a href="mailto:support@website.com" class="contact-link">
+                                    <ion-icon name="mail-outline"></ion-icon>
+
+                                    <span>: info@capztone.com</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="contact-link">
+                                    <ion-icon name="globe-outline"></ion-icon>
+
+                                    <span>: www.capztone.com</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="tel:+0011234567890" class="contact-link">
+                                    <ion-icon name="call-outline"></ion-icon>
+
+                                    <span>: (+91) 74063 04567 </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <div class="contact-link">
+                                    <ion-icon name="time-outline"></ion-icon>
+
+                                    <span>: 9:00 AM - 6:00 PM</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#" class="contact-link">
+                                    <ion-icon name="location-outline"></ion-icon>
+
+                                    <address>: Bengaluru, Karnataka</address>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+        - FOOTER
+      -->
+
+    <footer>
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="Asset/img/capz log.png" alt="Landio logo">
+                    </a>
+
+                    <p class="footer-text">
+
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/company/capztone/" target="_blank" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-link-box">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-item-title">ABOUT US</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Customers</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Company</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Privacy policies</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-item-title">SUPPORT</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Developers</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Team</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Helpline</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Get Started</a>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2023 <a href="">Capztone Innovative Solution</a>. All Right Reserved
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- 
+        - SlideCard
+      -->
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="Asset/js/slide.js"></script>
+    <script src="Asset/js/nav.js"></script>
+
+
+</body>
+
+</html>
